@@ -1,0 +1,16 @@
+.form-block {
+    margin-top: 5rem;
+    color: #ffff;
+}
+
+.form-block .column {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #2A737E;
+}
+
+.form-block form {
+    margin-top: 10px;
+}
