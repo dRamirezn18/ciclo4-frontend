@@ -1,5 +1,6 @@
 .form-block {
-    margin-top: 5rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
     color: #ffff;
 }
 
@@ -8,7 +9,9 @@
     padding-bottom: 3rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    background-color: #2A737E;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .form-block form {
