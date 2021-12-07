@@ -55,28 +55,29 @@
             </div>
         </div>
         <form class="row needs-validation mt-4" novalidate>
-            <div class="col-12 col-md-4 offset-md-2 position-relative">
-                <input type="text" class="form-control" placeholder="Nombres" autocomplete="name" required>
-            </div>
-            <div class="col-12 col-md-4 position-relative">
-                <input type="text" class="form-control" placeholder="Apellidos" required>
-            </div>
             <div class="col-12 col-md-8 offset-md-2 position-relative">
-                <input type="email" class="form-control" placeholder="Correo Electronico" autocomplete="email" required>
-            </div>
-            <div class="col-12 col-md-8 offset-md-2 position-relative">
-                <input type="password" class="form-control" placeholder="Contraseña" required>
+                <input type="number" class="form-control" id="txtDocumento" placeholder="Documento" required>
             </div>
             <div class="col-12 col-md-4 offset-md-2 position-relative">
-                <input type="text" class="form-control" placeholder="Dirección" autocomplete="street-address" required>
+                <input type="text" class="form-control"id="txtNombre" placeholder="Nombres" autocomplete="name" required>
             </div>
             <div class="col-12 col-md-4 position-relative">
-                <select id="ciudad" class="form-select" required>
-                    <option selected disabled value="">Elegir...</option>
-                    <option>Medellin</option>
-                    <option>Neiva</option>
-                    <option>Bogota</option>
-                </select>
+                <input type="text" class="form-control" id="txtApellido" placeholder="Apellidos" required>
+            </div>
+            <div class="col-12 col-md-8 offset-md-2 position-relative">
+                <input type="email" class="form-control" id="txtCorreo" placeholder="Correo Electronico" autocomplete="email" required>
+            </div>
+            <div class="col-12 col-md-8 offset-md-2 position-relative">
+                <input type="password" class="form-control" id="txtContrasena" placeholder="Contraseña" required>
+            </div>
+            <div class="col-12 col-md-8 offset-md-2 position-relative">
+                <input type="number" class="form-control" id="txtTelefono" placeholder="Telefono" required>
+            </div>
+            <div class="col-12 col-md-4 offset-md-2 position-relative">
+                <input type="text" class="form-control" id="txtDireccion" placeholder="Dirección" autocomplete="street-address" required>
+            </div>
+            <div class="col-12 col-md-4 position-relative">
+                <input type="text" class="form-control" id="txtCiudad" placeholder="Ciudad" autocomplete="street-address" required>
             </div>
             <div class="d-grid gap-2 col-8 mx-auto">
                 <button class="btn btn-mfeliz" type="submit">Registrar</button>
@@ -93,10 +94,10 @@
                     <h2>Enlaces de interes</h2>
                     <ul>
                         <li><a href="./index.html">Inicio</a></li>
-                        <li><a href="#">Acerca de</a></li>
-                        <li><a href="#">Productos</a></li>
+                        <li><a href="./administrador.html">Administrador</a></li>
+                        <li><a href="./asesor.html">Asesor</a></li>
                         <li><a href="#">Servicios</a></li>
-                        <li><a href="#">Politica y privacidad</a></li>
+                        <li><a href="./terminos.html">Politica y privacidad</a></li>
                     </ul>
                 </div>
                 <div class="col-12 col-md-5 col-lg-6">
